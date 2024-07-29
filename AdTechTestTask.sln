@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".src", ".src", "{62D4B65F-46E3-424F-A925-C4F99A4EA2DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tst", ".tst", "{B429F088-B138-42D5-AE17-9334BF4E7B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Domain", ".src\Employee.Domain\Employee.Domain.csproj", "{CE077557-BE17-42CF-9569-30BE62D3C999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE077557-BE17-42CF-9569-30BE62D3C999} = {62D4B65F-46E3-424F-A925-C4F99A4EA2DB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE077557-BE17-42CF-9569-30BE62D3C999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE077557-BE17-42CF-9569-30BE62D3C999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE077557-BE17-42CF-9569-30BE62D3C999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE077557-BE17-42CF-9569-30BE62D3C999}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
